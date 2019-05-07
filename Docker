@@ -1,0 +1,15 @@
+1)DockerFile create
+2)docker-machine create <machine-name> --driver virtualbox
+docker-machine ls
+docker-machine.exe env --shell cmd <machinename>
+eval "$(docker-machine env machine-name)"
+docker build -t my-name .                                ->(dot indicate curret directory) Create an image
+docker images
+docker run -d -p 8080:8080 <my-name>  		         ->(to convert the 
+
+
+
+FROM rossbachp/java8
+FROM rossbachp/tomcat8
+
+
